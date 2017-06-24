@@ -1,0 +1,10 @@
+<ul class="nav-menu">
+    <li><a href="/homepage">Step one</a></li>
+    <li><a href="/basic">Step two</a></li>
+</ul>
+
+<div ng-controller="TreeController as tc">
+    <ul class="tree">
+        <node-tree children="tc.tree"></node-tree>
+    </ul>
+</div>
